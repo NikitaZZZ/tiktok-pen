@@ -1,9 +1,14 @@
 let vue = new Vue({
   el: '#app',
   data: {
-    set: {
-      title: 'private',
-      likes: 5,
-    },
-  },
+    names: [
+      {title: "Go?"},
+      {title: "Dune"},
+      {title: "Dune Timoti love"},
+      {title: "Dune Love is"},
+      {title: "Zzz"},
+      {title: "Tribute"},
+    ]
+  }
 });
+
