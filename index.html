@@ -19,8 +19,13 @@
       <ul class="list-group">
         <li class="list-group-item" v-for="name in names">
           <p>{{ name.title }}</p>
+          <p class="alert alert-danger" role="alert">{{ name.likes }}</p>
         </li>
       </ul>
+    </div>
+
+    <div class="alert alert-success" id="title2" role="alert">
+      <h2>New TikTok</h2>
     </div>
 
     <script
